@@ -2,8 +2,8 @@
     "title": "{{title}}",
     "profile": {
         "title": "Your Profile",
-        "applications": "Applications",
-        "no-applications": "You have not created any applications.",
+        "applications": "Forms",
+        "no-applications": "You have not created any forms.",
         "menu": {
             "logout": "Logout"
         }
@@ -13,10 +13,10 @@
         "button": "Login with Discord"
     },
     "applications": {
-        "title-not-loaded": "Application",
-        "title-closed": "Closed {{form}} applications",
-        "title-open": "Open {{form}} applications",
-        "title-create": "Create {{form}} application",
+        "title-not-loaded": "Form",
+        "title-closed": "Closed {{form}} forms",
+        "title-open": "Open {{form}} forms",
+        "title-create": "Create {{form}} form",
         "title-user": "{{user}}",
         "username": "Username",
         "status": "Status",
@@ -24,11 +24,11 @@
         "created": "Created"
     },
     "application": {
-        "title-not-loaded": "Application",
-        "title": "{{user}}'s {{form}} application",
+        "title-not-loaded": "Form",
+        "title": "{{user}}'s {{form}} Form",
         "latest-interaction": "Latest interaction {{time}}",
-        "create": "Create application",
-        "heading": "{{form}} application",
+        "create": "Create form",
+        "heading": "{{form}} form",
         "answers": "Answers",
         "not-answered": "This question has not been answered",
         "comment": {
@@ -39,15 +39,15 @@
         "status": "changed the status to",
         "menu": {
             "update-status": "Update status",
-            "delete": "Delete application"
+            "delete": "Delete form"
         },
         "delete": {
-            "title": "Delete this application?",
-            "confirm": "Yes, delete application",
-            "text": "Hey there, are you sure you want to delete this application? This action cannot be undone." 
+            "title": "Delete this form?",
+            "confirm": "Yes, delete form",
+            "text": "Hey there, are you sure you want to delete this form? This action cannot be undone." 
         },
         "change-status": {
-            "title": "Change status of application",
+            "title": "Change status of form",
             "label": "Status",
             "placeholder": "Pending",
             "confirm": "Confirm"
@@ -57,7 +57,7 @@
         "title-not-loaded": "Profile",
         "title": "{{user}}'s profile",
         "owner": "This user is the owner.",
-        "no-applications": "{{user}} has not created any applications",
+        "no-applications": "{{user}} has not created any forms",
         "menu": {
             "change-role": "Change role",
             "delete-user": "Delete user"
@@ -94,7 +94,7 @@
                     "options": {
                         "all": "All events",
                         "comment": "Comment is created",
-                        "status": "Status of application is updated"
+                        "status": "Status of form is updated"
                     }
                 },
                 "url": {
@@ -164,7 +164,7 @@
         "delete": {
             "button": "Delete form",
             "title": "Delete this form?",
-            "text": "Hey there, are you sure you want to delete this form? All data will be lost. All of users applications will be deleted.",
+            "text": "Hey there, are you sure you want to delete this form? All data will be lost. All of users forms will be deleted.",
             "confirm": "Yes, delete form"
         },
         "sections": {
@@ -253,9 +253,9 @@
         "user": {
             "title": "User",
             "group": "Forms",
-            "create": "Create application",
-            "open": "Open applications",
-            "closed": "Closed applications"
+            "create": "Create form",
+            "open": "Open forms",
+            "closed": "Closed forms"
         }
     }
 }
