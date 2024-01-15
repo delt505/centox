@@ -2,12 +2,12 @@
     "locale": "en",
     "meta": {
         "default_title": "Minejungle staff",
-        "favicon": "http://forms.minejungle.fun/favicon.svg",
+        "favicon": "https://forms.minejungle.fun/favicon.svg",
         "keywords": "Minejungle",
-        "description": "minejungle",
+        "description": "MineJungle Forms",
         "theme_color": "#00ff00",
         "opengraph": {
-            "url": "http://5.161.118.132",
+            "url": "https://forms.minejungle.fun",
             "image": "https://cdn.discordapp.com/splashes/1030552568612524102/f60f294bc04f986a3af1181111242190.jpg?size=100"
         }
     },
