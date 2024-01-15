@@ -1,0 +1,20 @@
+import Webhook from '../../types/webhook';
+import http from '../http';
+
+export interface IWebhookResponse {
+    message: string;
+    webhook?: Webhook;
+}
+
+
+export default ( id: string | undefined | string[]): Promise<IWebhookResponse> => {
+    return new Promise((resolve, reject) => {
+        http.get(`/api/webhooks/${id}`)
+            .then(response => {
+                if(response.status != 200) 
+                    return reject(response.data)
+                return resolve(response.data);
+            })
+            .catch(reject);
+    });
+}

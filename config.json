@@ -1,0 +1,15 @@
+{
+    "locale": "en",
+    "meta": {
+        "default_title": "Minejungle staff",
+        "favicon": "http://5.161.118.132/favicon.svg",
+        "keywords": "Centox Forum Stuff",
+        "description": "minejungle",
+        "theme_color": "#00ff00",
+        "opengraph": {
+            "url": "http://5.161.118.132",
+            "image": "https://cdn.discordapp.com/splashes/1030552568612524102/f60f294bc04f986a3af1181111242190.jpg?size=100"
+        }
+    },
+    "logo": "http://5.161.118.132/logo.svg"
+}

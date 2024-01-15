@@ -1,0 +1,261 @@
+{
+    "title": "{{title}}",
+    "profile": {
+        "title": "Your Profile",
+        "applications": "Applications",
+        "no-applications": "You have not created any applications.",
+        "menu": {
+            "logout": "Logout"
+        }
+    },
+    "login": {
+        "title": "Login with Discord",
+        "button": "Login with Discord"
+    },
+    "applications": {
+        "title-not-loaded": "Application",
+        "title-closed": "Closed {{form}} applications",
+        "title-open": "Open {{form}} applications",
+        "title-create": "Create {{form}} application",
+        "title-user": "{{user}}",
+        "username": "Username",
+        "status": "Status",
+        "latest-interaction": "Latest interaction",
+        "created": "Created"
+    },
+    "application": {
+        "title-not-loaded": "Application",
+        "title": "{{user}}'s {{form}} application",
+        "latest-interaction": "Latest interaction {{time}}",
+        "create": "Create application",
+        "heading": "{{form}} application",
+        "answers": "Answers",
+        "not-answered": "This question has not been answered",
+        "comment": {
+            "label": "Create a comment",
+            "placeholder": "Write something constructive here",
+            "button": "Comment"
+        },
+        "status": "changed the status to",
+        "menu": {
+            "update-status": "Update status",
+            "delete": "Delete application"
+        },
+        "delete": {
+            "title": "Delete this application?",
+            "confirm": "Yes, delete application",
+            "text": "Hey there, are you sure you want to delete this application? This action cannot be undone." 
+        },
+        "change-status": {
+            "title": "Change status of application",
+            "label": "Status",
+            "placeholder": "Pending",
+            "confirm": "Confirm"
+        }
+    },
+    "user": {
+        "title-not-loaded": "Profile",
+        "title": "{{user}}'s profile",
+        "owner": "This user is the owner.",
+        "no-applications": "{{user}} has not created any applications",
+        "menu": {
+            "change-role": "Change role",
+            "delete-user": "Delete user"
+        },
+        "change-role": {
+            "title": "Change {{user}}'s role",
+            "confirm": "Confirm",
+            "role": {
+                "label": "Role",
+                "required": "The role is required.",
+                "placeholder": "The user's role"
+            }
+        }
+    },
+    "users": {
+        "username": "Username",
+        "role": "Role",
+        "joined": "Joined"
+    },
+    "webhooks": {
+        "title": "Admin - Webhooks",
+        "webhooks": "Webhooks",
+        "create": {
+            "title": "Creating new webhook",
+            "button": "Create new webhook",
+            "fields": {
+                "name": {
+                    "label": "Name",
+                    "placeholder": "The name of the webhook" 
+                },
+                "event": {
+                    "label": "Event",
+                    "placeholder": "Event which triggers the webhook",
+                    "options": {
+                        "all": "All events",
+                        "comment": "Comment is created",
+                        "status": "Status of application is updated"
+                    }
+                },
+                "url": {
+                    "label": "URL",
+                    "placeholder": "The url to which the webhook should be sent"
+                }
+            }
+        },
+        "view": {
+            "title": "Viewing webhook",
+            "delete": "Delete webhook",
+            "fields": {
+                "name": "Name",
+                "event": "Event",
+                "url": "URL",
+                "secret-key": "Secret Key"
+            }
+        }
+    },
+    "roles": {
+        "title": "Admin - Roles",
+        "menu": {
+            "edit": "Editing '{{role}}'",
+            "create": "Creating new role"
+        },
+        "name": "Name",
+        "badge": "Badge",
+        "members": "Members",
+        "button": {
+            "save": "Save",
+            "create": "Create role",
+            "delete": "Delete"
+        },
+        "fields": {
+            "label": {
+                "label": "Label",
+                "required": "The label is required.",
+                "placeholder": "The label of the role"
+            },
+            "color": {
+                "label": "Color",
+                "required": "The color is required.",
+                "placeholder": "The color of the badge",
+                "options": {
+                    "gray": "Gray",
+                    "red": "Red",
+                    "pink": "Pink",
+                    "grape": "Grape",
+                    "violet": "Violet",
+                    "indigo": "Indigo",
+                    "blue": "Blue",
+                    "cyan": "Cyan",
+                    "green": "Green",
+                    "lime": "Lime",
+                    "yellow": "Yellow",
+                    "orange": "Orange",
+                    "teal": "Teal"
+                }
+            }
+        }
+    },
+    "form": {
+        "title-not-loaded": "Admin - Form",
+        "title": "Admin - {{form}} form",
+        "heading": "Editing form",
+        "save": "Save",
+        "delete": {
+            "button": "Delete form",
+            "title": "Delete this form?",
+            "text": "Hey there, are you sure you want to delete this form? All data will be lost. All of users applications will be deleted.",
+            "confirm": "Yes, delete form"
+        },
+        "sections": {
+            "info": {
+                "name": {
+                    "label": "Name",
+                    "description": "The name the user sees"
+                },
+                "icon": {
+                    "label": "Icon",
+                    "description": "Find icons on fontawesome.com"
+                }
+            },
+            "permissions": {
+                "role": "Role",
+                "create": "Can create",
+                "view": "Can view others",
+                "comment": "Can comment",
+                "status": "Can change status"
+            },
+            "fields": {
+                "add": {
+                    "button": "Add field",
+                    "content": "Content",
+                    "text": "Text",
+                    "heading": "Heading",
+                    "input": "Input",
+                    "shorttext": "Short Text",
+                    "longtext": "Long Text",
+                    "select": "Select",
+                    "checkbox": "Checkbox"
+                },
+                "field": {
+                    "required": "Required",
+                    "heading": "Enter a heading",
+                    "question": "Enter a question",
+                    "text": "This is a text block - add some text",
+                    "description": "Enter a description"
+                }
+            }
+        }
+    },
+    "forms": {
+        "title": "Admin - Forms",
+        "create": "Create form",
+        "name": "Name",
+        "created": "Created at",
+        "updated": "Updated at"
+    },
+    "errors": {
+        "page-not-found": "Page not found.",
+        "user-not-found": "User not found.",
+        "form-not-found": "Form not found.",
+        "unknown": "Something went wrong.",
+        "view-no-perm": "You do not have permission to view this list."
+    },
+    "elements": {
+        "confirmation-modal": {
+            "cancel": "Cancel"
+        },
+        "role": {
+            "default": "Default"
+        },
+        "status": {
+            "pending": "Pending",
+            "rejected": "Rejected",
+            "accepted": "Accepted"
+        }
+    },
+    "random": {
+        "loading": "Loading...",
+        "ago": "ago",
+        "error": "Error",
+        "success": "Success",
+        "unsaved": "You have unsaved changes, are you sure?"
+    },
+    "sidebar": {
+        "admin": {
+            "title": "Admin",
+            "group": "Administration",
+            "users": "Users",
+            "roles": "Roles",
+            "forms": "Forms",
+            "webhooks": "Webhooks"
+        },
+        "user": {
+            "title": "User",
+            "group": "Forms",
+            "create": "Create application",
+            "open": "Open applications",
+            "closed": "Closed applications"
+        }
+    }
+}

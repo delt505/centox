@@ -1,0 +1,261 @@
+{
+    "title": "{{title}} | Centox",
+    "profile": {
+        "title": "Din profil",
+        "applications": "Ansøgninger",
+        "no-applications": "Du har ikke lavet nogle ansøgninger.",
+        "menu": {
+            "logout": "Log ud"
+        }
+    },
+    "login": {
+        "title": "Log ind med Discord",
+        "button": "Log ind med Discord"
+    },
+    "applications": {
+        "title-not-loaded": "Ansøgning",
+        "title-closed": "Lukkede {{form}} ansøgninger",
+        "title-open": "Afventende {{form}} ansøgninger",
+        "title-create": "Opret {{form}} ansøgning",
+        "title-user": "{{user}}",
+        "username": "Brugernavn",
+        "status": "Status",
+        "latest-interaction": "Seneste interaktion",
+        "created": "Oprettet"
+    },
+    "application": {
+        "title-not-loaded": "Ansøgning",
+        "title": "{{user}}'s {{form}} ansøgning",
+        "latest-interaction": "Seneste interaktion: {{time}}",
+        "create": "Opret ansøgning",
+        "heading": "{{form}} ansøgning",
+        "answers": "Svar",
+        "not-answered": "Dette spørgsmål er ikke blevet besvaret",
+        "comment": {
+            "label": "Kommenter ansøgningen",
+            "placeholder": "Skriv noget konstruktivt her",
+            "button": "Kommenter"
+        },
+        "status": "ændrede status til",
+        "menu": {
+            "update-status": "Ændre status",
+            "delete": "Slet ansøgning"
+        },
+        "delete": {
+            "title": "Slet denne ansøgning?",
+            "confirm": "Ja, slet ansøgning",
+            "text": "Er du sikker på du vil slette denne ansøgning? Dette kan ikke fortrydes." 
+        },
+        "change-status": {
+            "title": "Ændrer ansøgningens status",
+            "label": "Status",
+            "placeholder": "Afventer",
+            "confirm": "Bekræft"
+        }
+    },
+    "user": {
+        "title-not-loaded": "Profil",
+        "title": "{{user}}'s profil",
+        "owner": "Denne bruger er ejeren af siden",
+        "no-applications": "{{user}} har ikke lavet nogle ansøgninger.",
+        "menu": {
+            "change-role": "Ændre rank",
+            "delete-user": "Slet bruger"
+        },
+        "change-role": {
+            "title": "Ændrer {{user}}'s rank",
+            "confirm": "Bekræft",
+            "role": {
+                "label": "Rank",
+                "required": "Ranken er påkrævet.",
+                "placeholder": "Brugerens rank"
+            }
+        }
+    },
+    "users": {
+        "username": "Brugernavn",
+        "role": "Rank",
+        "joined": "Oprettet"
+    },
+    "webhooks": {
+        "title": "Admin - Webhooks",
+        "webhooks": "Webhooks",
+        "create": {
+            "title": "Opret ny webhook",
+            "button": "Opret webhook",
+            "fields": {
+                "name": {
+                    "label": "Navn",
+                    "placeholder": "Navnet på webhooken" 
+                },
+                "event": {
+                    "label": "Event",
+                    "placeholder": "Hvilket event som skal kører webhook",
+                    "options": {
+                        "all": "Alle events",
+                        "comment": "Når en kommentar er skrevet",
+                        "status": "Når status bliver opdateret på ansøgning"
+                    }
+                },
+                "url": {
+                    "label": "URL",
+                    "placeholder": "URL som webhook skal sende anmodning til"
+                }
+            }
+        },
+        "view": {
+            "title": "Viser webhook",
+            "delete": "Slet webhook",
+            "fields": {
+                "name": "Navn",
+                "event": "Event",
+                "url": "URL",
+                "secret-key": "Hemmelig nøgle"
+            }
+        }
+    },
+    "roles": {
+        "title": "Admin - Ranks",
+        "menu": {
+            "edit": "Ændrer '{{role}}'",
+            "create": "Opret rank"
+        },
+        "name": "Navn",
+        "badge": "Badge",
+        "members": "Medlemmer",
+        "button": {
+            "save": "Gem",
+            "create": "Opret rank",
+            "delete": "Slet"
+        },
+        "fields": {
+            "label": {
+                "label": "Navn",
+                "required": "Navnet er påkrævet",
+                "placeholder": "Admin"
+            },
+            "color": {
+                "label": "Farve",
+                "required": "Farven er påkrævet",
+                "placeholder": "Rød",
+                "options": {
+                    "gray": "Grå",
+                    "red": "Rød",
+                    "pink": "Pink",
+                    "grape": "Grape",
+                    "violet": "Violet",
+                    "indigo": "Indigo",
+                    "blue": "Blå",
+                    "cyan": "Cyan",
+                    "green": "Grøn",
+                    "lime": "Lime",
+                    "yellow": "Gul",
+                    "orange": "Orange",
+                    "teal": "Teal"
+                }
+            }
+        }
+    },
+    "form": {
+        "title-not-loaded": "Admin - Skema",
+        "title": "Admin - {{form}} skema",
+        "heading": "Ændrer skema",
+        "save": "Gem",
+        "delete": {
+            "button": "Slet skema",
+            "title": "Slet dette skema?",
+            "text": "Er du sikker på at du vil slette dette skema? Alle ansøgninger til dette skema vil også blive slettet.",
+            "confirm": "Ja, slet skema"
+        },
+        "sections": {
+            "info": {
+                "name": {
+                    "label": "Navn",
+                    "description": "Navnet som brugeren ser"
+                },
+                "icon": {
+                    "label": "Ikon",
+                    "description": "Find ikoner på fontawesome.com"
+                }
+            },
+            "permissions": {
+                "role": "Rank",
+                "create": "Kan oprette",
+                "view": "Kan se andres",
+                "comment": "kan kommentere",
+                "status": "Kan ændre status"
+            },
+            "fields": {
+                "add": {
+                    "button": "Tilføj felt",
+                    "content": "Indhold",
+                    "text": "Tekst",
+                    "heading": "Overskrift",
+                    "input": "Input",
+                    "shorttext": "Kort tekst",
+                    "longtext": "Lang tekst",
+                    "select": "Vælg",
+                    "checkbox": "Afkrydsningsfelt"
+                },
+                "field": {
+                    "required": "Påkrævet",
+                    "heading": "Indtast en overskrift",
+                    "question": "Indtast et spørgsmål",
+                    "text": "Dette er en tekstblok - tilføj noget tekst",
+                    "description": "Indtast en beskrivelse"
+                }
+            }
+        }
+    },
+    "forms": {
+        "title": "Admin - Skemaer",
+        "create": "Opret skema",
+        "name": "Navn",
+        "created": "Oprettet",
+        "updated": "Opdateret"
+    },
+    "errors": {
+        "page-not-found": "Side ikke fundet.",
+        "user-not-found": "Bruger ikke fundet.",
+        "form-not-found": "Skema ikke fundet.",
+        "unknown": "Der gik noget galt.",
+        "view-no-perm": "Du har ikke adgang til at se dette."
+    },
+    "elements": {
+        "confirmation-modal": {
+            "cancel": "Annuller"
+        },
+        "role": {
+            "default": "Medlem"
+        },
+        "status": {
+            "pending": "Afventer svar",
+            "rejected": "Afvist",
+            "accepted": "Accepteret"
+        }
+    },
+    "random": {
+        "loading": "Loader...",
+        "ago": "siden",
+        "error": "Fejl",
+        "success": "Succes",
+        "unsaved": "Er du sikker på du vil forlade siden?"
+    },
+    "sidebar": {
+        "admin": {
+            "title": "Admin",
+            "group": "Administration",
+            "users": "Brugere",
+            "roles": "Ranks",
+            "forms": "Skemaer",
+            "webhooks": "Webhooks"
+        },
+        "user": {
+            "title": "Bruger",
+            "group": "Ansøgninger",
+            "create": "Opret ansøgning",
+            "open": "Afventer svar",
+            "closed": "Lukkede ansøgninger"
+        }
+    }
+}
